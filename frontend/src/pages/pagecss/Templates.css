@@ -1,0 +1,114 @@
+.select-type{
+    padding-top: 4rem;
+    padding-left: 30rem;
+    max-width: 200px;
+}
+.find-templates{
+    border-radius:8%;
+    padding: .35rem;
+    border-color: gray;
+}
+.workspace-container {
+  padding: 2rem 0;
+  background: #f4f5f7;
+  min-height: 100vh;
+}
+
+.workspace-header {
+  text-align: center;
+  padding-left: 15rem;
+  margin-bottom: 2rem;
+}
+
+.workspace-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.workspace-main {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.workspace-sidebar {
+  min-width: 220px;
+  max-width: 250px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: stretch; /* ensures children take full width */
+  position: sticky;
+  top: 7vh; /* adjust if your navbar is a different height */
+  height: fit-content;
+  z-index: 100;
+}
+
+.find-templates {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #dfe1e6;
+  font-size: 1rem;
+  margin-bottom: 0; /* remove if present */
+}
+
+.category-stack .category-btn {
+  justify-content: flex-start;
+  color: #42526e;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.category-btn:hover {
+  background: #e4f0f6;
+}
+
+.workspace-templates {
+  flex: 1;
+}
+
+.templates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.template-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s;
+}
+
+.template-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.template-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.template-info {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.use-template-btn {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}

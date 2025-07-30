@@ -1,0 +1,71 @@
+.column{
+    margin:5px;
+    background-color: rgb(36, 34, 34);/* or use rgba/hex */
+    width: 350px;
+    height: 500px;
+    max-height: 500px;
+    border-radius: 0.5rem; /* same as Tailwind's rounded-md */
+    display: flex;
+    flex-direction: column;
+    color:white;
+    box-sizing:border-box;
+    padding-left:3px;
+    flex-shrink:0;
+}
+.column-title{
+    display:flex;
+    background: rgb(36, 34, 34);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    height:40px;
+    cursor:grab;
+    border-radius:0.375rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius:0;
+    padding: 3px;
+    font-weight:bold;
+    border-width: 4px;
+    border-style: solid; /* Tailwind always applies solid border unless specified */
+    border-color: rgb(36, 34, 34);
+    justify-content:space-between;
+}
+
+.column,.column-title{
+    box-sizing:border-box;
+}
+
+.add-tasks{
+    display:flex;
+    align-items:center;
+    align-content:center;
+    justify-content: flex-start;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.column-when-dragged{
+    opacity:0.6;
+    border: 1px solid #f43f5e;
+    margin:5px;
+    background-color: rgb(36, 34, 34);/* or use rgba/hex */
+    width: 350px;
+    height: 500px;
+    max-height: 500px;
+    border-radius: 0.5rem; /* same as Tailwind's rounded-md */
+    display: flex;
+    flex-direction: column;
+    color:white;
+    box-sizing:border-box;
+    padding-left:3px;
+    flex-shrink:0;
+}
+
+/* this is for the tasks
+
+.content{
+    background: black;
+    width: 325px;
+    align-content:center;
+    border-radius:0.375rem;
+    margin:auto;
+} */

@@ -1,0 +1,48 @@
+.signup-form{
+    background-color: rgba(255,255,255,0.9);
+    width: 425px;
+    height: 725px;
+    border-radius:0.5rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    gap: 1.34rem;
+}
+
+.create-new-account {
+    color: white !important;
+    background-color: rgb(39, 174, 236) !important;
+    margin-top: 0.5rem;
+    display: flex;
+    padding: 0.5rem !important; /* Reduce from 0.75rem to 0.5rem */
+    border: 1px solid #ccc !important;
+    box-sizing: border-box !important;
+    border-radius: 0.25rem !important;
+    width: 300px !important;
+    font-size: 1rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-transform: none !important ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+.username h2,.email h2,.password h2,.confirm-password h2{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.username input, .email input, .password input, .confirm-password input{
+    width: 300px;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper{
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

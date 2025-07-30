@@ -1,0 +1,74 @@
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    overflow-x: visible;
+    position: relative; /* or fixed if you want sticky nav */
+    z-index: 10;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    
+}
+.search-bar{
+    width: 200px;
+    border-radius: 3px;
+    padding: 6px 12px;
+    border: 1px solid #dfe1e6;
+    transition: width 200ms ease;
+    font-size: 14px;
+    background-color: #f4f5f7;
+}
+.search-bar::placeholder{
+    color: gray;
+}
+.search-bar:focus{
+    width: 240px;
+    background-color: white;
+    border-color: #0079bf;
+    outline: none;
+}
+.nav-left,.nav-right{
+    display: flex;
+    align-items:center;
+    gap:18px;
+}
+.nav-bar{
+    width: 100%;
+    min-height: 100vh;
+    background: #eceaff;
+    color: #525252;
+}
+
+.to-notif,.to-create{
+    color:white;
+    margin-top: 4px;
+}
+
+.create-button {
+    margin: 0;
+    padding: 6px 12px !important;
+    font-size: 14px !important;
+    min-height: 32px !important;
+    text-transform: none !important;
+    border-radius: 3px !important;
+    font-weight: 500 !important;
+}
+
+/* This blurs the background  */
+.popup-background {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.3); /* semi-transparent overlay */
+  backdrop-filter: blur(4px);   /* blur the background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000; /* make sure it's above other content */
+}

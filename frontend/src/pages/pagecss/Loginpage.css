@@ -1,0 +1,82 @@
+html,body{
+    overflow-x:hidden;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+h1{
+    color: var(--trello-blue);
+}
+.username-field,.password-field{
+    align-items: center;
+    border-radius: var(--radius-sm);
+    width:250px;
+    padding: var(--spacing-sm);
+    margin: 3px;
+    border: 1px solid var(--border-primary);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background: var(--primary-gradient);
+    background-size: cover;
+    width: 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.login-button{
+    cursor:pointer;
+    margin-top: 10px;
+    width: 265px;
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    background-color: var(--success);
+    color: var(--text-white);
+    border: none;
+    font-weight: 600;
+    transition: var(--transition-normal);
+}
+
+.login-button:hover {
+    background-color: #4caf50;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px var(--shadow-medium);
+}
+.logo{
+    height:70%;
+}
+.login-text{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+.form-section{
+    padding: 100px;
+    border: 2px solid var(--border-primary);
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-heavy) 0px 54px 55px, var(--shadow-medium) 0px -12px 30px, var(--shadow-medium) 0px 4px 6px, var(--shadow-heavy) 0px 12px 13px, var(--shadow-light) 0px -3px 5px;
+    backdrop-filter: blur(10px);
+}
+.create-account,.forgot-pw{
+    text-decoration: none;
+    color: var(--trello-blue);
+    transition: var(--transition-fast);
+}
+
+.create-account:hover,.forgot-pw:hover{
+    color: var(--trello-blue-dark);
+    text-decoration: underline;
+}
+.forgot-pw{
+    margin: 1.2px;
+}

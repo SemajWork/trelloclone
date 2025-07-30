@@ -1,0 +1,84 @@
+/* PopupForm.css */
+
+.create-popup {
+  background-color: white;
+  padding: 24px;
+  max-width: 480px;
+  margin: 80px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.create-popup h1 {
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #172b4d;
+}
+
+.create-popup h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5e6c84;
+  margin-bottom: 24px;
+}
+
+.create-popup p {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #172b4d;
+}
+
+.create-popup input,
+.create-popup textarea,
+.create-popup button {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #dfe1e6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.create-popup input:focus,
+.create-popup textarea:focus {
+  border-color: #0079bf;
+}
+
+.workspace-description {
+  resize: vertical;
+  min-height: 80px;
+  margin-top: 4px;
+}
+
+.create-popup button {
+  background-color: #f4f5f7;
+  color: #172b4d;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.create-popup button:hover {
+  background-color: #ebecf0;
+}
+
+.continue-button {
+  background-color: #0079bf !important;
+  color: white !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  margin-top: 24px !important;
+  width: 100%;
+  padding: 10px 0 !important;
+  border-radius: 4px !important;
+}
+
+.continue-button:hover {
+  background-color: #026aa7 !important;
+}
